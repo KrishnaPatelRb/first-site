@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head >
+       
+        <style>
+            
+            body{
+                background-color: black;
+                color: white;
+                background-image: url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
+                background-repeat: no-repeat;
+                background-size:1400px 567px;
+            
+            }
+            
+            .header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .language-sign{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .center-parent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 180px;
+
+            }
+            .center {
+                padding-bottom: 8px;
+                font-size: 20px;
+                
+            }
+            .un,.sh{
+            font-size: 50px;
+            font-weight: 700;   
+            }
+            .wa {
+                font-size: 23px;
+                font-weight: 550;
+            }
+            .faq{
+            display: grid;
+            grid-template-columns: auto auto auto auto;  /*in place of auto we can write px also*/
+            grid-column-gap: 10px;   
+            grid-row-gap: 10px;
+            grid-gap: 10px;      /*5px for both row and coumn*/
+            grid-gap: 5px 5px;   /*row:column*/ 
+            justify-content: center;            
+        }
+           .last-page{
+               padding: 30px;
+               opacity: 0.5;
+           }
+           .faq-1{
+               padding-right: 50px;
+           }
+            
+        </style>
+
+    </head>
+    <body>
+        <section class="main-content"  color: white;>
+            <div class="first-page" style="padding: 15px; height: 530px; border-bottom: 5px solid gray;" >
+                <div class="header">
+                    <div class="netflix-title">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/799px-Netflix_2015_logo.svg.png" style="width: 100px;">
+                    </div>
+                    <div class="language-sign" >
+                        <div class="language" style="padding-right: 10px;">
+                            <select>
+                                <option  value="English" selected ><h1>English</h1></option>
+                                <option value="Hindi"> <html>hindi</html></option>
+                                
+                            </select>
+                        </div>
+                        <div class="sign-in">
+                            <button class="sign-in-button" style="background-color: orangered; font-size: 15px; color: white;">Sign in</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- header end -->
+                <div class="center-parent">
+                
+                   <div class="center un">Unlimited movies, TV</div>
+                   <div class="center sh">shows and more</div>
+                   <div class="center wa">Watch anywhere. Cancel anytime.</div>
+                   <div class= "center ready">Ready to watch? Enter your email to create or restart your membership.</div>
+                   <div class="center get">
+                       <input placeholder="Email Address" style="height: 29px; width: 450px;"> </input>
+                       <button style="height: 35px; background-color: orangered; color: white;">Get Started ></button>
+                   </div>
+    
+                </div>
+                <!-- center-parent end -->
+            </div>
+            <!-- first-page end -->
+            <div class="page-2" style=" border-bottom: 5px solid gray; padding-top: 180px; padding-bottom: -0px; display: grid; grid-template-columns: auto auto;  justify-content: center;">
+                <div style="width: 280px;" class="page2-left">
+                    <h1 style="font-size: 35px;" >Enjoy on your TV</h1>
+                    <h4 >Watch on smart TVs,PlayStation,Xbox, and more Chromecast, Apple TV, Blu-ray player and more</h4>
+                </div>
+                <div class="page2-right">
+                    <img style="width: 350px; height: 259px;" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"><br>
+                <video style="position: relative;  left: 45px; top: -235px;" width="257" height="195"control loop autoplay muted> <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4"> </video>
+                </img>
+                </div>
+            </div>
+           <!-- page-2 end -->
+           <div class="page-3" style=" padding-top: 120px; padding-bottom: 120px;  border-bottom: 5px solid gray; display: grid; grid-template-columns: auto auto;  justify-content: center;">
+            <div class="page3-left">
+                <img style="width: 400px; height: 300px;" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+            </div>
+            <div style="width: 280px;" class="page3-right">
+                <h1 style="font-size: 35px;" >Download your shows to watch offline.</h1>
+                <h4 >Save your favourites easily and always have something to watch.</h4>
+            </div>
+        </div>
+        <!-- page-3 end -->
+        <div class="page-4" style=" border-bottom: 5px solid gray; padding-top: 120px; padding-bottom: 120px; display: grid; grid-template-columns: auto auto;  justify-content: center;">
+            <div style="width: 280px;" class="page4-left">
+                <h1 style="font-size: 35px;" >Watch everywhere.</h1>
+                <h4 >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h4>
+            </div>
+            <div class="page4-right">
+                <img style="width: 350px; height: 300px;" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png">
+            </div>
+        </div>
+        <!-- page-4 end -->
+        <div class="page-5" style=" padding-top: 120px; padding-bottom: 120px; border-bottom: 5px solid gray; display: grid; grid-template-columns: auto auto;  justify-content: center;">
+            <div class="page5-left">
+                <img style="width: 350px; height: 250px;" src="https://occ-0-4344-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf">
+            </div>
+            <div style="width: 280px;" class="page5-right">
+                <h1 style="font-size: 35px;" >Create profiles for children.</h1>
+                <h4 >Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h4>
+            </div>
+        </div>
+        <!-- page-5 end -->
+        <h1 style="font-size: 50px; text-align: center;">Frequently Asked Questions</h1>
+        <div class="last-page">
+            <div style="padding-left: 295px; padding-bottom: 25px;">Questions? Call 000-800-040-1843</div>
+            <div class="faq">
+                <div class="faq-1">FAQ</div>
+                <div class="faq-1">Help center</div>
+                <div class="faq-1">Account</div>
+                <div class="faq-1">Media Center</div>
+                <div class="faq-1">Investor Relations</div>
+                <div class="faq-1">jobs</div>
+                <div class="faq-1">Way to Watch</div>
+                <div class="faq-1">Terms of use</div>
+                <div class="faq-1">Privacy</div>
+                <div class="faq-1" > Cookie preference</div>
+                <div class="faq-1">Corporate information</div>
+                <div class="faq-1">Contact us</div>
+                <div class="faq-1">Speed test</div>
+                <div class="faq-1">legal notice</div>
+                <div class="faq-1">Only on Netflix</div>
+            </div>
+            <div class="language" style="padding-left: 300px; padding-top: 50px; margin-bottom:50px ; ">
+                <select>
+                    <option  value="English" selected ><h1>English</h1></option>
+                    <option value="Hindi"> <html>hindi</html></option>
+                    
+                </select>
+           
+    </section>
+        
+        <!-- main-content end -->
+    </body>
+</html>
